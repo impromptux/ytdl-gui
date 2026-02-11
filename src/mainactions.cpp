@@ -330,7 +330,7 @@ void ytdl::downloadAction() {
         }
 
         //Video selected
-        else {
+        else if (ui->Tabs->currentIndex() == 1){
             std::string audio_format = "bestaudio";
             std::string video_format;
             switch(ui->VFormatGroup->checkedId()) {
@@ -382,6 +382,13 @@ void ytdl::downloadAction() {
                     + parse_output;
 
             this->run_ytdl(command);
+        } else {
+            QMessageBox article;
+            article.setWindowIcon(QIcon::fromTheme("page.codeberg.impromptux.ytdl-gui"));
+            article.setIcon(QMessageBox::Information);
+            article.setText(QCoreApplication::tr("Coming soon..."));
+            article.exec();
+            //curl --remote-name --user-agent "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.119 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
         }
     }
 

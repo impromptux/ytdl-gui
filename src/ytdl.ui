@@ -57,7 +57,7 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="Music">
      <property name="enabled">
@@ -300,12 +300,16 @@
           <item>
            <widget class="QRadioButton" name="radio1080p">
             <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
             </property>
             <property name="text">
              <string>1080p</string>
             </property>
             <property name="checked">
-             <bool>true</bool>
+             <bool>false</bool>
             </property>
             <attribute name="buttonGroup">
              <string notr="true">VResGroup</string>
@@ -395,7 +399,7 @@
              <string>MP4</string>
             </property>
             <property name="checked">
-             <bool>true</bool>
+             <bool>false</bool>
             </property>
             <attribute name="buttonGroup">
              <string notr="true">VFormatGroup</string>
@@ -418,6 +422,95 @@
       </item>
      </layout>
     </widget>
+    <widget class="QWidget" name="Article">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="title">
+      <string>Article</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <property name="leftMargin">
+         <number>3</number>
+        </property>
+        <property name="bottomMargin">
+         <number>2</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="labelAgainstPiracy">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Please remind that downloading articles from website you are not alowed to (for exemple if you haven't paid) is illegal.</string>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <property name="leftMargin">
+         <number>3</number>
+        </property>
+        <property name="topMargin">
+         <number>2</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="labelAFormat">
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Preferred Format:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="radiosAFormat">
+          <item>
+           <widget class="QRadioButton" name="radioHTML">
+            <property name="text">
+             <string>HTML</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">AFormatGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radioMARKDOWN">
+            <property name="text">
+             <string>MARKDOWN</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">AFormatGroup</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
@@ -425,7 +518,7 @@
       <x>10</x>
       <y>10</y>
       <width>571</width>
-      <height>25</height>
+      <height>30</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="urlLayout">
@@ -442,7 +535,7 @@
      <item row="0" column="2">
       <widget class="QCheckBox" name="playlistCheck">
        <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
+        <enum>Qt::LayoutDirection::RightToLeft</enum>
        </property>
        <property name="text">
         <string>Playlist</string>
@@ -457,7 +550,7 @@
       <x>10</x>
       <y>170</y>
       <width>581</width>
-      <height>25</height>
+      <height>32</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="downloadLayout">
@@ -493,7 +586,7 @@
         </size>
        </property>
        <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
+        <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
        <property name="text">
         <string>Defaults</string>
@@ -526,9 +619,10 @@
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="MQualityGroup"/>
+  <buttongroup name="MFormatGroup"/>
   <buttongroup name="VFormatGroup"/>
   <buttongroup name="VResGroup"/>
-  <buttongroup name="MFormatGroup"/>
+  <buttongroup name="MQualityGroup"/>
+  <buttongroup name="AFormatGroup"/>
  </buttongroups>
 </ui>
