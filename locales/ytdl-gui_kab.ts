@@ -5,11 +5,11 @@
     <name>QCoreApplication</name>
     <message>
         <source>Youtube Downloader</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Amsader n Youtube</translation>
     </message>
     <message>
         <source>Select a folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Fren akaram</translation>
     </message>
     <message>
         <source>Cancel download in progress?</source>
@@ -17,11 +17,11 @@
     </message>
     <message>
         <source>Saving and converting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Asekles akked uselket...</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Asfari</translation>
     </message>
     <message>
         <source>Invalid argument in config file:</source>
@@ -29,7 +29,7 @@
     </message>
     <message>
         <source>invalid argument</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiɣiret tarameɣtut</translation>
     </message>
     <message>
         <source>out of range</source>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>undefined error</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuccḍa tarussint</translation>
     </message>
     <message>
         <source>Invalid argument in config file</source>
@@ -45,7 +45,7 @@
     </message>
     <message>
         <source>Download Succeeded</source>
-        <translation type="unfinished"></translation>
+        <translation>Yedda usader</translation>
     </message>
     <message>
         <source>Download succeded</source>
@@ -53,7 +53,7 @@
     </message>
     <message>
         <source>[INFO] Yt-dlp command: </source>
-        <translation type="unfinished"></translation>
+        <translation>[TALƔUT] Aneẓday Yt-dlp: </translation>
     </message>
     <message>
         <source>[ERROR] QProcess failed with error code: </source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Taɣara yelhan</translation>
     </message>
     <message>
         <source>Good</source>
@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>OPUS</source>
-        <translation type="unfinished"></translation>
+        <translation>OPUS</translation>
     </message>
     <message>
         <source>WAV</source>
@@ -187,11 +187,11 @@
     </message>
     <message>
         <source>Enter URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekcem-d URL:</translation>
     </message>
     <message>
         <source>Playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabdart n tɣuri</translation>
     </message>
     <message>
         <source>Browse...</source>
