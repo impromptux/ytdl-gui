@@ -34,8 +34,10 @@ int main(int argc, char *argv[])
     }else if (language == "Dutch"){
         localeID = "nl";
         qDebug() << "Dutch locale by Heimen Stoffels";
+    }else if (language == "Kabyle"){
+        localeID = "kab";
+        qDebug() << "Kabyle locale by Butterflyoffire";
     }
-    //Heimen Stoffels
     qDebug() << "Chosen locale:" << localeID;
     if (localeID != "en"){
         QString localePath = QString(YTDL_GUI_DATA_DIR)+"locales/ytdl-gui_"+localeID+".qm" ;

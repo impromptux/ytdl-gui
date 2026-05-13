@@ -245,5 +245,15 @@
         <source>Better audio reproduction but really large files</source>
         <translation>音质更佳，但文件体积非常大</translation>
     </message>
+    <message>
+        <source>Ctrl+P</source>
+        <comment>Shortcut to enable/disable playlislt button</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+D</source>
+        <comment>Shortcut to enable/disable default button</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

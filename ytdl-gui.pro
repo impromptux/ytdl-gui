@@ -6,4 +6,5 @@ TRANSLATIONS += locales/ytdl-gui_eo.ts
 TRANSLATIONS += locales/ytdl-gui_et.ts
 TRANSLATIONS += locales/ytdl-gui_zh_Hans.ts
 TRANSLATIONS += locales/ytdl-gui_nl.ts
+TRANSLATIONS += locales/ytdl-gui_kab.ts
 FORMS        += src/*.ui
