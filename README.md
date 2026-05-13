@@ -48,6 +48,8 @@ To install after having installed the correct dependencies:<br/><br/>
 ```cmake .. && make```<br/>
 ```sudo make install```<br/>
 
+To get notifications when download finish, you need to install notify-send if it is not installed by default (Debian:```libnotify-bin```, Fedora and Arch:```libnotify``` ).
+
 ## Contributing
 If you want to contribute you can [fork the repo](https://codeberg.org/impromptux/ytdl-gui/fork) and open a pull request with a description of your changes.
 If you have a suggestion or a bug to report you can [open an issue](https://codeberg.org/impromptux/ytdl-gui/issues)
@@ -61,6 +63,8 @@ You can also contribute by [translating the app](https://translate.codeberg.org/
 - [Mondstern](https://codeberg.org/Mondstern) : German translation (he is also the author of these awesome icons: [AndroidAcrylicIconPack](https://codeberg.org/mondstern/AndroidAcrylicIconPack))
 - [North-DaCoder](https://codeberg.org/North-DaCoder) : German translation
 - [Gallegonovato](https://codeberg.org/gallegonovato) : Spanish translation
+- [Moonshadow](https://codeberg.org/moonshadow) : Kabyle translation
+- [Butterflyoffire](https://codeberg.org/butterflyoffire) : Kabyle translation
 - [Contributors of youtubedl-gui](https://codeberg.org/impromptux/ytdl-gui/activity/contributors)
 
 ## TODO
