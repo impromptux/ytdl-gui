@@ -240,12 +240,12 @@
     <message>
         <source>Ctrl+P</source>
         <comment>Shortcut to enable/disable playlislt button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
         <comment>Shortcut to enable/disable default button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+D</translation>
     </message>
 </context>
 </TS>
