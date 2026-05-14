@@ -91,12 +91,21 @@
     <keyword>Utility</keyword>
   </keywords>
   <releases>
+        <release version="4.4.8" date="2026-05-14">
+          <url type="details">https://codeberg.org/impromptux/ytdl-gui/releases/tag/v4.4.8</url>
+          <description>
+            <ul>
+              <li>New Kabyle translation(by Moonshadow and butterflyoffire)</li>
+              <li>Update French locale</li>
+            </ul>
+          </description>
+        </release>
         <release version="4.4.7" date="2026-04-06">
           <url type="details">https://codeberg.org/impromptux/ytdl-gui/releases/tag/v4.4.7</url>
           <description>
             <ul>
               <li>Update German translations (by North-DaCoder)</li>
-              <li>New Spanish translations (by Gallegonovato)</li>              
+              <li>New Spanish translations (by Gallegonovato)</li>
             </ul>
           </description>
         </release>
@@ -105,7 +114,7 @@
           <description>
             <ul>
               <li>Update German translations (by North-DaCoder)</li>
-              <li>Improve interface</li>              
+              <li>Improve interface</li>
             </ul>
           </description>
         </release>
@@ -200,5 +209,4 @@
           </description>
         </release>
     </releases>
-
 </component>
