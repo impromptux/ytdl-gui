@@ -65,14 +65,14 @@
     </message>
     <message>
         <source>Yt Downloader</source>
-        <translation type="unfinished">Téléchargeur de vidéos</translation>
+        <translation>Téléchargeur de vidéos</translation>
     </message>
 </context>
 <context>
     <name>downloadStatus</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Boîte de dialogue</translation>
     </message>
     <message>
         <source>Downloading...</source>
@@ -219,11 +219,11 @@
     </message>
     <message>
         <source>Lower quality audio, the file will be smaller than with other quality levels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Plus basse qualité audio, le fichier sera plus petit qu&apos;avec les autres niveaux de qualité.</translation>
     </message>
     <message>
         <source>(Recommended for Apple’s systems) Small files but not universally supported and proprietary</source>
-        <translation type="unfinished"></translation>
+        <translation>(Recommandé pour les systèmes d&apos;Apple) Petits fichiers mais n&apos;est pas supporté universellement et le format est propriétaire</translation>
     </message>
     <message>
         <source>(Recommended for open-source systems) Small files and good performances but not supported everywhere</source>
@@ -235,21 +235,21 @@
     </message>
     <message>
         <source>Better audio reproduction but large files and not supported everywhere</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleure fidélité mais fichiers plus volumineux et n’est pas supporté partout</translation>
     </message>
     <message>
         <source>Better audio reproduction but really large files</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleure fidélité sonore mais fichiers très volumineux</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
         <comment>Shortcut to enable/disable playlislt button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
         <comment>Shortcut to enable/disable default button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+D</translation>
     </message>
 </context>
 </TS>
