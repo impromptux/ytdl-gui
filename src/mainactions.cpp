@@ -13,6 +13,8 @@
 #include <QFile>
 #include <QDebug>
 #include <QDir>
+#include <signal.h>
+#include <unistd.h>
 
 std::string whitespace = " ";
 std::string quote = "'";
@@ -163,6 +165,7 @@ void ytdl::messageDownload() {
 
     //exec
     progressThread->start();
+    qDebug() << download_instance->command->processId();
     downloading->exec();
 }
 
@@ -171,7 +174,13 @@ void ytdl::killDownloadProcess() {
     downloading->closeDownloadWindow();
 
     //kill command
+    qDebug() << "[INFO] Killing yt-dlp parents";
+    qDebug() << download_instance->command->processId();
+    QString killChildren = QString("pkill -P %1").arg(download_instance->command->processId());
+    system(killChildren.toStdString().c_str());
     download_instance->command->kill();
+    qDebug() << "[INFO] Killing yt-dlp";
+    kill(download_instance->command->processId(), SIGTERM);
 }
 
 
