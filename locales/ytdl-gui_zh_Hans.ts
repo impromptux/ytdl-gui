@@ -257,47 +257,47 @@
     </message>
     <message>
         <source>Smallest files</source>
-        <translation type="unfinished"></translation>
+        <translation>文件最小</translation>
     </message>
     <message>
         <source>For old devices, smaller files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>适用于旧设备，文件较小且兼容性有限</translation>
     </message>
     <message>
         <source>Proprietary, bigger files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>专有格式，文件较大且兼容性有限</translation>
     </message>
     <message>
         <source>Best compatibility but proprietary</source>
-        <translation type="unfinished"></translation>
+        <translation>兼容性最佳但为专有格式</translation>
     </message>
     <message>
         <source>Smaller files and open-source</source>
-        <translation type="unfinished"></translation>
+        <translation>文件较小且开源</translation>
     </message>
     <message>
         <source>Use website defaults settings</source>
-        <translation type="unfinished"></translation>
+        <translation>使用网站默认设置</translation>
     </message>
     <message>
         <source>Often not available, big files, only for powerful and high resolution devices (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>通常不可用，文件大，仅适用于高性能且高分辨率的设备（对环境非常不利）</translation>
     </message>
     <message>
         <source>Bigger files (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>文件较大（对环境非常不利）</translation>
     </message>
     <message>
         <source>Best for large screen (high environmental impact)</source>
-        <translation type="unfinished"></translation>
+        <translation>最适合大屏幕（环境影响大）</translation>
     </message>
     <message>
         <source>Good for less powerful devices</source>
-        <translation type="unfinished"></translation>
+        <translation>适合性能较低的设备</translation>
     </message>
     <message>
         <source>Better for the environment, smaller files</source>
-        <translation type="unfinished"></translation>
+        <translation>对环境更友好，文件较小</translation>
     </message>
 </context>
 </TS>
