@@ -6,5 +6,5 @@ TRANSLATIONS += locales/ytdl-gui_eo.ts
 TRANSLATIONS += locales/ytdl-gui_et.ts
 TRANSLATIONS += locales/ytdl-gui_zh_Hans.ts
 TRANSLATIONS += locales/ytdl-gui_nl.ts
-TRANSLATIONS += locales/ytdl-gui_kab.ts
+TRANSLATIONS += locales/ytdl-gui_kab.ts # not recognized by lupdate, you need to change the language code in ytdl-gui_kab.ts to another one when updating
 FORMS        += src/*.ui

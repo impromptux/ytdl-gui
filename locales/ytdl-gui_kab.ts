@@ -49,7 +49,7 @@
     </message>
     <message>
         <source>Download succeded</source>
-        <translation type="vanished">Téléchargement effectué</translation>
+        <translation>Téléchargement effectué</translation>
     </message>
     <message>
         <source>[INFO] Yt-dlp command: </source>
@@ -61,6 +61,10 @@
     </message>
     <message>
         <source>Failed! Recheck input for errors. If the url you provided is correct, try with other resolutions or formats.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yt Downloader</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -79,7 +83,7 @@
     <name>ytdl</name>
     <message>
         <source>ytdl</source>
-        <translation>ytdl</translation>
+        <translation type="vanished">ytdl</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Music&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -204,6 +208,92 @@
     <message>
         <source>Download</source>
         <translation>Sader</translation>
+    </message>
+    <message>
+        <source>Yt Downloader</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+P</source>
+        <comment>Shortcut to enable/disable playlislt button</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Best quality audio, the file will be bigger than with other quality levels.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lower quality audio, the file will be smaller than with other quality levels.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(Recommended for Apple’s systems) Small files but not universally supported and proprietary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(Recommended for open-source systems) Small files and good performances but not supported everywhere</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(Recommended for most system) Best compatibility and good audio quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Better audio reproduction but large files and not supported everywhere</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Better audio reproduction but really large files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Often not available, big files, only for powerful and high resolution devices (really bad for environement)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bigger files (really bad for environement)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Best for large screen (high environemental impact)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Good for less powerfull devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Better for the environement, smaller files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smallest files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For old devices, smaller files and not widely compatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Proprietary, bigger files and not widely compatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Best compatibility but proprietary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smaller files and open-source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use website defaults settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+D</source>
+        <comment>Shortcut to enable/disable default button</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

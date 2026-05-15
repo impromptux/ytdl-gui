@@ -141,9 +141,6 @@
          <property name="enabled">
           <bool>true</bool>
          </property>
-         <property name="toolTip">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Music&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
          <property name="whatsThis">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Music&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -405,6 +402,9 @@
                   <height>0</height>
                  </size>
                 </property>
+                <property name="toolTip">
+                 <string>Often not available, big files, only for powerful and high resolution devices (really bad for environement)</string>
+                </property>
                 <property name="text">
                  <string>4K</string>
                 </property>
@@ -415,6 +415,9 @@
               </item>
               <item>
                <widget class="QRadioButton" name="radio1440p">
+                <property name="toolTip">
+                 <string>Bigger files (really bad for environement)</string>
+                </property>
                 <property name="text">
                  <string>1440p</string>
                 </property>
@@ -431,6 +434,9 @@
                   <verstretch>0</verstretch>
                  </sizepolicy>
                 </property>
+                <property name="toolTip">
+                 <string>Best for large screen (high environemental impact)</string>
+                </property>
                 <property name="text">
                  <string>1080p</string>
                 </property>
@@ -444,6 +450,9 @@
               </item>
               <item>
                <widget class="QRadioButton" name="radio720p">
+                <property name="toolTip">
+                 <string>Good for less powerfull devices</string>
+                </property>
                 <property name="text">
                  <string>720p</string>
                 </property>
@@ -454,6 +463,9 @@
               </item>
               <item>
                <widget class="QRadioButton" name="radio480p">
+                <property name="toolTip">
+                 <string>Better for the environement, smaller files</string>
+                </property>
                 <property name="text">
                  <string>480p</string>
                 </property>
@@ -464,6 +476,9 @@
               </item>
               <item>
                <widget class="QRadioButton" name="radio360p">
+                <property name="toolTip">
+                 <string>Smallest files</string>
+                </property>
                 <property name="text">
                  <string>360p</string>
                 </property>
@@ -501,6 +516,9 @@
              <layout class="QHBoxLayout" name="radiosVFormat">
               <item>
                <widget class="QRadioButton" name="radio3GP">
+                <property name="toolTip">
+                 <string>For old devices, smaller files and not widely compatible</string>
+                </property>
                 <property name="text">
                  <string>3GP</string>
                 </property>
@@ -511,6 +529,9 @@
               </item>
               <item>
                <widget class="QRadioButton" name="radioFLV">
+                <property name="toolTip">
+                 <string>Proprietary, bigger files and not widely compatible</string>
+                </property>
                 <property name="text">
                  <string>FLV</string>
                 </property>
@@ -521,6 +542,9 @@
               </item>
               <item>
                <widget class="QRadioButton" name="radioMP4">
+                <property name="toolTip">
+                 <string>Best compatibility but proprietary</string>
+                </property>
                 <property name="text">
                  <string>MP4</string>
                 </property>
@@ -534,6 +558,9 @@
               </item>
               <item>
                <widget class="QRadioButton" name="radioWEBM">
+                <property name="toolTip">
+                 <string>Smaller files and open-source</string>
+                </property>
                 <property name="text">
                  <string>WEBM</string>
                 </property>
@@ -624,6 +651,9 @@
           <height>0</height>
          </size>
         </property>
+        <property name="toolTip">
+         <string>Use website defaults settings</string>
+        </property>
         <property name="layoutDirection">
          <enum>Qt::LayoutDirection::LeftToRight</enum>
         </property>
@@ -668,9 +698,9 @@
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="MQualityGroup"/>
-  <buttongroup name="VResGroup"/>
   <buttongroup name="MFormatGroup"/>
+  <buttongroup name="VResGroup"/>
   <buttongroup name="VFormatGroup"/>
+  <buttongroup name="MQualityGroup"/>
  </buttongroups>
 </ui>
