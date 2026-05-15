@@ -253,47 +253,47 @@
     </message>
     <message>
         <source>Smallest files</source>
-        <translation type="unfinished"></translation>
+        <translation>Plus petits fichiers</translation>
     </message>
     <message>
         <source>For old devices, smaller files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Pour les anciens appareils, plus petits fichiers et n’est pas toujours supporté</translation>
     </message>
     <message>
         <source>Proprietary, bigger files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Propriétaire, plus gros fichiers et n’est pas supporté partout</translation>
     </message>
     <message>
         <source>Best compatibility but proprietary</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleure compatibilité mais propriétaire</translation>
     </message>
     <message>
         <source>Smaller files and open-source</source>
-        <translation type="unfinished"></translation>
+        <translation>Plus petits fichiers et libre</translation>
     </message>
     <message>
         <source>Use website defaults settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser les paramètres par défaut du site</translation>
     </message>
     <message>
         <source>Often not available, big files, only for powerful and high resolution devices (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Souvent indisponible, seulement pour des appareils puissants avec une haute résolution (très mauvais pour environnement)</translation>
     </message>
     <message>
         <source>Bigger files (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Plus gros fichiers (très mauvais pour environnement)</translation>
     </message>
     <message>
         <source>Best for large screen (high environmental impact)</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleur pour les grand écrans (fort impact environnemental)</translation>
     </message>
     <message>
         <source>Good for less powerful devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Bon pour les appareils moins puissants</translation>
     </message>
     <message>
         <source>Better for the environment, smaller files</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleur pour l’environnement, plus petits fichiers</translation>
     </message>
 </context>
 </TS>
