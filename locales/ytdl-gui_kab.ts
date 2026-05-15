@@ -247,26 +247,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Often not available, big files, only for powerful and high resolution devices (really bad for environement)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Bigger files (really bad for environement)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Best for large screen (high environemental impact)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Good for less powerfull devices</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Better for the environement, smaller files</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Smallest files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -293,6 +273,26 @@
     <message>
         <source>Ctrl+D</source>
         <comment>Shortcut to enable/disable default button</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Often not available, big files, only for powerful and high resolution devices (really bad for environment)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bigger files (really bad for environment)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Best for large screen (high environmental impact)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Good for less powerful devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Better for the environment, smaller files</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

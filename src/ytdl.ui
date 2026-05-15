@@ -135,7 +135,7 @@
          </size>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="Music">
          <property name="enabled">
@@ -403,7 +403,7 @@
                  </size>
                 </property>
                 <property name="toolTip">
-                 <string>Often not available, big files, only for powerful and high resolution devices (really bad for environement)</string>
+                 <string>Often not available, big files, only for powerful and high resolution devices (really bad for environment)</string>
                 </property>
                 <property name="text">
                  <string>4K</string>
@@ -416,7 +416,7 @@
               <item>
                <widget class="QRadioButton" name="radio1440p">
                 <property name="toolTip">
-                 <string>Bigger files (really bad for environement)</string>
+                 <string>Bigger files (really bad for environment)</string>
                 </property>
                 <property name="text">
                  <string>1440p</string>
@@ -435,7 +435,7 @@
                  </sizepolicy>
                 </property>
                 <property name="toolTip">
-                 <string>Best for large screen (high environemental impact)</string>
+                 <string>Best for large screen (high environmental impact)</string>
                 </property>
                 <property name="text">
                  <string>1080p</string>
@@ -451,7 +451,7 @@
               <item>
                <widget class="QRadioButton" name="radio720p">
                 <property name="toolTip">
-                 <string>Good for less powerfull devices</string>
+                 <string>Good for less powerful devices</string>
                 </property>
                 <property name="text">
                  <string>720p</string>
@@ -464,7 +464,7 @@
               <item>
                <widget class="QRadioButton" name="radio480p">
                 <property name="toolTip">
-                 <string>Better for the environement, smaller files</string>
+                 <string>Better for the environment, smaller files</string>
                 </property>
                 <property name="text">
                  <string>480p</string>
