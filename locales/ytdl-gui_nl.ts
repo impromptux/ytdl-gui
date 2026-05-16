@@ -253,47 +253,47 @@
     </message>
     <message>
         <source>Smallest files</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleinste bestanden</translation>
     </message>
     <message>
         <source>For old devices, smaller files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Geschikt voor oude apparaten, maar minder compatibel</translation>
     </message>
     <message>
         <source>Proprietary, bigger files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesloten formaat, grotere bestanden en minder compatibel</translation>
     </message>
     <message>
         <source>Best compatibility but proprietary</source>
-        <translation type="unfinished"></translation>
+        <translation>Beste compatibiliteit, gesloten formaat</translation>
     </message>
     <message>
         <source>Smaller files and open-source</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleinere bestanden, open source</translation>
     </message>
     <message>
         <source>Use website defaults settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Standaard website-instellingen gebruiken</translation>
     </message>
     <message>
         <source>Often not available, big files, only for powerful and high resolution devices (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Doorgaans niet beschikbaar, grotere bestanden, alleen voor krachtige apparaten met hoge resoluties (slecht voor het milieu)</translation>
     </message>
     <message>
         <source>Bigger files (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Grotere bestanden (erg slecht voor het milieu)</translation>
     </message>
     <message>
         <source>Best for large screen (high environmental impact)</source>
-        <translation type="unfinished"></translation>
+        <translation>Geschikt voor grote schermen (grote milieu-impact)</translation>
     </message>
     <message>
         <source>Good for less powerful devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Geschikt voor minder krachtige apparaten</translation>
     </message>
     <message>
         <source>Better for the environment, smaller files</source>
-        <translation type="unfinished"></translation>
+        <translation>Beter voor het milieu, kleinere bestanden</translation>
     </message>
 </context>
 </TS>
