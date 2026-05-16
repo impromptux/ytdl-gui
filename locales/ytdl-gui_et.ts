@@ -257,47 +257,47 @@
     </message>
     <message>
         <source>Smallest files</source>
-        <translation type="unfinished"></translation>
+        <translation>Väikseimad failid</translation>
     </message>
     <message>
         <source>For old devices, smaller files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Väikseimad failid vanemat tüüpi seadmetele, kuid mitte laialt ühilduvad</translation>
     </message>
     <message>
         <source>Proprietary, bigger files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Suuremad ja omanduslikud/suletud vormingus failid, kuid mitte laialt ühilduvad</translation>
     </message>
     <message>
         <source>Best compatibility but proprietary</source>
-        <translation type="unfinished"></translation>
+        <translation>Parim ühilduvus, kuid omanduslik/suletud vorming</translation>
     </message>
     <message>
         <source>Smaller files and open-source</source>
-        <translation type="unfinished"></translation>
+        <translation>Väiksemad failid, mis põhinevad avatud lähtekoodiga vormingul</translation>
     </message>
     <message>
         <source>Use website defaults settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta veebisaidi vaikimisi seadistusi</translation>
     </message>
     <message>
         <source>Often not available, big files, only for powerful and high resolution devices (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pole sageli saadaval, suured failid, vaid võimsate ja suure eraldusvõimega seadmetele (keskkonna mõttes üsna halb valik)</translation>
     </message>
     <message>
         <source>Bigger files (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Suuremat sorti failid (keskkonna mõttes üsna halb valik)</translation>
     </message>
     <message>
         <source>Best for large screen (high environmental impact)</source>
-        <translation type="unfinished"></translation>
+        <translation>Parimad suurtele ekraanidele (suure keskkonnamõjuga)</translation>
     </message>
     <message>
         <source>Good for less powerful devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Hea valik väiksema võimsusega seadmete jaoks</translation>
     </message>
     <message>
         <source>Better for the environment, smaller files</source>
-        <translation type="unfinished"></translation>
+        <translation>Väikesed failid, parim valik keskkonna mõttes</translation>
     </message>
 </context>
 </TS>
