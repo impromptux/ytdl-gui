@@ -18,6 +18,8 @@
 
 std::string whitespace = " ";
 std::string quote = "'";
+std::string slash = "\\";
+std::string escaped_quote = quote+slash+quote+quote;
 
 mainActions::mainActions(QObject *parent) : QObject(parent)	{
         ytdl* window = ytdl::getWinInstance();
@@ -165,7 +167,6 @@ void ytdl::messageDownload() {
 
     //exec
     progressThread->start();
-    qDebug() << download_instance->command->processId();
     downloading->exec();
 }
 
@@ -175,7 +176,6 @@ void ytdl::killDownloadProcess() {
 
     //kill command
     qDebug() << "[INFO] Killing yt-dlp parents";
-    qDebug() << download_instance->command->processId();
     QString killChildren = QString("pkill -P %1").arg(download_instance->command->processId());
     system(killChildren.toStdString().c_str());
     download_instance->command->kill();
@@ -278,7 +278,9 @@ void ytdl::downloadAction() {
         }
     }
     std::string url_str = quote + QString_to_str(ui->lineURL->text()) + quote;
-    std::string directory_str = quote + QString_to_str(ui->lineBrowse->text()) + "/%(title)s.%(ext)s" + quote;
+    std::string directory_path = QString_to_str(ui->lineBrowse->text());
+    directory_path.replace(directory_path.find("'"), 1, escaped_quote);   //escape the directory path
+    std::string directory_str = quote + directory_path + "/%(title)s.%(ext)s" + quote;
     std::string parse_output = R"(stdbuf -o0 grep -oP '^\[download\].*?\K([0-9]+)')";
     std::string thumbnail;
     std::string embed_subs;
