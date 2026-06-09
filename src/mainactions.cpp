@@ -279,7 +279,12 @@ void ytdl::downloadAction() {
     }
     std::string url_str = quote + QString_to_str(ui->lineURL->text()) + quote;
     std::string directory_path = QString_to_str(ui->lineBrowse->text());
-    directory_path.replace(directory_path.find("'"), 1, escaped_quote);   //escape the directory path
+    //escape the directory path
+    size_t pos = 0;
+    while ((pos = directory_path.find("'", pos)) != std::string::npos) {
+        directory_path.replace(pos, 1, escaped_quote);
+        pos += escaped_quote.length();  // Move past the replaced text
+    }
     std::string directory_str = quote + directory_path + "/%(title)s.%(ext)s" + quote;
     std::string parse_output = R"(stdbuf -o0 grep -oP '^\[download\].*?\K([0-9]+)')";
     std::string thumbnail;
