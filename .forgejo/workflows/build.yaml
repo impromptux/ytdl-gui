@@ -10,7 +10,7 @@ jobs:
          with:
            ref: 'master'
        - name: Install dependencies
-         run: apt update && apt install build-essential cmake qt6-base-dev -y
+         run: apt update && apt install --no-install-recommends build-essential cmake qt6-base-dev -y
        - name: Patch
          run: ls -R && patch < resources/forjeo-actions/forjeo-actions.diff src/mainactions.cpp
        - name: Build
