@@ -12,6 +12,7 @@ Architecture: amd64
 Maintainer: Antoine Impromptux <impromptux@mailo.com>
 #Installed-Size: 0          # TODO:calculate it
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64, libqt6gui6, libqt6widgets6, libstdc++6 (>= 13.1), yt-dlp
+Recommends: libnotify-bin
 Section: web
 Priority: optional
 Multi-Arch: foreign
