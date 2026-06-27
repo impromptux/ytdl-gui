@@ -240,56 +240,56 @@
     <message>
         <source>Ctrl+P</source>
         <comment>Shortcut to enable/disable playlislt button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Strg+P</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
         <comment>Shortcut to enable/disable default button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Strg+D</translation>
     </message>
     <message>
         <source>Smallest files</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleinste Dateien</translation>
     </message>
     <message>
         <source>For old devices, smaller files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Für alte Geräte, kleinere Dateien und nicht überall kompatibel</translation>
     </message>
     <message>
         <source>Proprietary, bigger files and not widely compatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Proprietär, größere Dateien und nicht überall kompatibel</translation>
     </message>
     <message>
         <source>Best compatibility but proprietary</source>
-        <translation type="unfinished"></translation>
+        <translation>Beste Kompatibilität aber proprietär</translation>
     </message>
     <message>
         <source>Smaller files and open-source</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleinere Dateien und Open-Source</translation>
     </message>
     <message>
         <source>Use website defaults settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Webseiten Standardeinstellung verwenden</translation>
     </message>
     <message>
         <source>Often not available, big files, only for powerful and high resolution devices (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Meistens nicht verfügbar, große Dateien, nur für leistungsstarke und hochauflösende Geräte (sehr schlecht für die Umwelt)</translation>
     </message>
     <message>
         <source>Bigger files (really bad for environment)</source>
-        <translation type="unfinished"></translation>
+        <translation>Größere Dateien (sehr schlecht für die Umwelt)</translation>
     </message>
     <message>
         <source>Best for large screen (high environmental impact)</source>
-        <translation type="unfinished"></translation>
+        <translation>Am besten für große Bildschirme geeignet (hohe Umweltbelastung)</translation>
     </message>
     <message>
         <source>Good for less powerful devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Gut geeignet für leistungsschwache Geräte</translation>
     </message>
     <message>
         <source>Better for the environment, smaller files</source>
-        <translation type="unfinished"></translation>
+        <translation>Besser für die Umwelt, kleinere Dateien</translation>
     </message>
 </context>
 </TS>
