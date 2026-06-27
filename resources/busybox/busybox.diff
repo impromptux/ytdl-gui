@@ -1,12 +1,11 @@
 --- src/mainactions.cpp	2026-02-16 18:33:19.852358354 +0100
 +++ src/mainactions.cpp	2026-02-14 16:22:35.555959618 +0100
-@@ -244,7 +244,8 @@
+@@ -286,7 +286,8 @@
+         pos += escaped_quote.length();  // Move past the replaced text
      }
-     std::string url_str = quote + QString_to_str(ui->lineURL->text()) + quote;
-     std::string directory_str = quote + QString_to_str(ui->lineBrowse->text()) + "/%(title)s.%(ext)s" + quote;
+     std::string directory_str = quote + directory_path + "/%(title)s.%(ext)s" + quote;
 -    std::string parse_output = R"(stdbuf -o0 grep -oP '^\[download\].*?\K([0-9]+)')";
 +    //std::string parse_output = R"(stdbuf -o0 grep -oP '^\[download\].*?\K([0-9]+)')";
 +    std::string parse_output = R"(stdbuf -o0 grep -o '^\[download\].*' | grep -o '[0-9]\+')";
      std::string thumbnail;
      std::string embed_subs;
- 
