@@ -30,7 +30,7 @@ jobs:
            name: ytdl-gui-amd64.deb
            path: artifacts/amd64-deb/ytdl-gui.deb
        - name: Build the rpm package
-         run: cd resources/fedora/ && bash ./rpm-amd64.sh artifacts/x86-64/youtubedl-gui && cd ../../
+         run: cd resources/fedora/ && bash ./rpm-amd64.sh ../../artifacts/x86-64/youtubedl-gui && cd ../../
        - name: Export rpm package
          run: mkdir -p artifacts/amd64-rpm/ && mv resources/fedora/ytdl-gui.rpm artifacts/amd64-rpm/
        - uses: actions/upload-artifact@v3
