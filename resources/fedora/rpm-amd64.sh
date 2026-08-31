@@ -47,7 +47,7 @@ BuildArch:      x86_64
 License:        GPL
 Source0:        ytdl-gui.tar.gz
 
-Requires:       ffmpeg, yt-dlp, libnotify, qt6
+Requires:       ffmpeg, yt-dlp, libnotify, qt6-qtbase-gui, qt6-qtbase
 Packager:       impromptux@mailo.com
 Vendor:         Impromptux
 URL:            https://codeberg.org/impromptux/ytdl-gui
