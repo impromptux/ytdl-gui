@@ -65,6 +65,8 @@ cp bin/youtubedl-gui $RPM_BUILD_ROOT/%{_bindir}
 mkdir -p $RPM_BUILD_ROOT/%{_datadir}
 cp -r usr/share/icons/ $RPM_BUILD_ROOT/%{_datadir}
 cp -r usr/share/ytdl-gui/ $RPM_BUILD_ROOT/%{_datadir}
+mkdir -p $RPM_BUILD_ROOT/%{_datadir}/applications/
+cp  usr/share/applications/page.codeberg.impromptux.ytdl-gui.desktop $RPM_BUILD_ROOT/%{_datadir}/applications/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -80,6 +82,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/icons/hicolor/512x512/apps/page.codeberg.impromptux.ytdl-gui.png
 %{_datadir}/icons/hicolor/scalable/apps/page.codeberg.impromptux.ytdl-gui.svg
 %{_datadir}/ytdl-gui/locales/ytdl-gui_*.qm
+%{_datadir}/applications/page.codeberg.impromptux.ytdl-gui.desktop
 
 %changelog
 * Sun Aug  30 2026 Antoine "Impromptux" <impromptux@mailo.com> - 1
