@@ -61,15 +61,25 @@ Downloads videos and audio from a variety of sites. Allows control of format, re
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/%{_bindir}
-pwd
-ls ./bin
 cp bin/youtubedl-gui $RPM_BUILD_ROOT/%{_bindir}
+mkdir -p $RPM_BUILD_ROOT/%{_datadir}
+cp -r usr/share/icons/ $RPM_BUILD_ROOT/%{_datadir}
+cp -r usr/share/ytdl-gui/ $RPM_BUILD_ROOT/%{_datadir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %{_bindir}/youtubedl-gui
+%{_datadir}/icons/hicolor/16x16/apps/page.codeberg.impromptux.ytdl-gui.png
+%{_datadir}/icons/hicolor/32x32/apps/page.codeberg.impromptux.ytdl-gui.png
+%{_datadir}/icons/hicolor/48x48/apps/page.codeberg.impromptux.ytdl-gui.png
+%{_datadir}/icons/hicolor/64x64/apps/page.codeberg.impromptux.ytdl-gui.png
+%{_datadir}/icons/hicolor/128x128/apps/page.codeberg.impromptux.ytdl-gui.png
+%{_datadir}/icons/hicolor/256x256/apps/page.codeberg.impromptux.ytdl-gui.png
+%{_datadir}/icons/hicolor/512x512/apps/page.codeberg.impromptux.ytdl-gui.png
+%{_datadir}/icons/hicolor/scalable/apps/page.codeberg.impromptux.ytdl-gui.svg
+%{_datadir}/ytdl-gui/locales/ytdl-gui_*.qm
 
 %changelog
 * Sun Aug  30 2026 Antoine "Impromptux" <impromptux@mailo.com> - 1
