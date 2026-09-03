@@ -1,7 +1,7 @@
 # ytdl-gui
 A simple-to-use, cross-platform graphical interface for yt-dlp. This is a fork of [the original youtubedl-gui by JaGoLi](https://github.com/JaGoLi/ytdl-gui) that seems to be abandoned.<br/><br/>
 [![Get it on Flathub!](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/flathub/get-it-on-flathub.png)](https://flathub.org/en/apps/page.codeberg.impromptux.ytdl-gui)
-[![Get it for Debian!](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/debian/get-it-for-debian-ceratopsian.png)](https://codeberg.org/impromptux/ytdl-gui/wiki/Install-on-Debian) [![Build it for ArchLinux](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/arch/build-it-for-arch-linux-dark.png)](https://codeberg.org/impromptux/ytdl-gui/wiki/Building-for-Arch-Linux) [![Get it for Alpine Linux](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/alpine/get-it-for-alpine-linux.png)](https://codeberg.org/impromptux/-/packages/alpine/youtubedl-gui/) <br/>
+[![Get it for Debian!](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/debian/get-it-for-debian-ceratopsian.png)](https://codeberg.org/impromptux/ytdl-gui/wiki/Install-on-Debian) [![Get it for Linux Mint!](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/linuxmint/get-it-for-linuxmint.png)](https://codeberg.org/impromptux/ytdl-gui/wiki/Install-on-Debian) [![Build it for ArchLinux](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/arch/build-it-for-arch-linux-dark.png)](https://codeberg.org/impromptux/ytdl-gui/wiki/Building-for-Arch-Linux) [![Get it for Alpine Linux](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/alpine/get-it-for-alpine-linux.png)](https://codeberg.org/impromptux/-/packages/alpine/youtubedl-gui/) [![Get it for Ubuntu!](https://codeberg.org/impromptux/install-badges/raw/branch/main/badges/ubuntu/get-it-for-ubuntu.png)](https://codeberg.org/impromptux/ytdl-gui/wiki/Install-on-Debian) <br/>
 ![youtubedl-gui-screenshot.png](https://codeberg.org/impromptux/ytdl-gui/raw/branch/master/resources/youtubedl-gui-screenshot-3.0.png) <br/>
 
 
@@ -65,6 +65,8 @@ You can also contribute by [translating the app](https://translate.codeberg.org/
 - [Gallegonovato](https://codeberg.org/gallegonovato) : Spanish translation
 - [Moonshadow](https://codeberg.org/moonshadow) : Kabyle translation
 - [Butterflyoffire](https://codeberg.org/butterflyoffire) : Kabyle translation
+- [RubberDuckyDJ](https://codeberg.org/RubberDuckyDJ) : Help about the RPM package
+- [People that signaled issues or requested new features](https://codeberg.org/impromptux/ytdl-gui/issues)
 - [Contributors of youtubedl-gui](https://codeberg.org/impromptux/ytdl-gui/activity/contributors)
 
 ## TODO
