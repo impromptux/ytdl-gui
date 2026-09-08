@@ -221,7 +221,7 @@ void ytdl::printResult(int result_num) {
                 if (!no_feedback && is_active) {
                     success.exec();
                 } else {
-                    system(("notify-send --icon page.codeberg.impromptux.ytdl-gui \"" + QCoreApplication::tr("Yt Downloader").toStdString() + "\" \"" + QCoreApplication::tr("Download succeded").toStdString() + "\" >/dev/null 2>&1 &").c_str());
+                    system(("notify-send --icon page.codeberg.impromptux.ytdl-gui \"" + QCoreApplication::tr("Yt Downloader").toStdString() + "\" \"" + QCoreApplication::tr("Download Succeeded").toStdString() + "\" >/dev/null 2>&1 &").c_str());
                 }
 
                 emit userAccepted();
