@@ -14,6 +14,7 @@
   <summary xml:lang="zh_Hans">从多种来源下载视频和音乐。</summary>
   <summary xml:lang="nl">Download video's en muziek uit verschillende bronnen.</summary>
   <summary xml:lang="de">Lade Videos und Musik aus verschiedenen Quellen herunter.</summary>
+  <summary xml:lang="es">Descarga vídeos y música de diversas fuentes.</summary>
   <url type="homepage">https://codeberg.org/impromptux/ytdl-gui</url>
   <url type="bugtracker">https://codeberg.org/impromptux/ytdl-gui/issues</url>
   <url type="vcs-browser">https://codeberg.org/impromptux/ytdl-gui</url>
@@ -53,6 +54,11 @@
       Es unterstützt mehr als 1000 Websites und 8 verschiedene Formate, einschließlich mp3, mp4 und webm.
       Sie können zwischen verschiedenen Auflösungen und Audioqualität wählen. Es unterstützt auch das Herunterladen ganzer Wiedergabelisten.
     </p>
+    <p xml:lang="es">
+      Una herramienta fácil de usar para descargar vídeos o archivos de audio de diversas fuentes, como YouTube, Dailymotion, Vimeo... 
+      Es compatible con más de 1000 sitios web y 8 formatos diferentes, entre ellos mp3, mp4 y webm. 
+      Puedes elegir entre diferentes resoluciones y calidades de audio. También permite descargar listas de reproducción completas.
+    </p>
   </description>
   
   <launchable type="desktop-id">page.codeberg.impromptux.ytdl-gui.desktop</launchable>
@@ -65,6 +71,7 @@
       <caption xml:lang="zh_Hans">应用的主窗口。（视频标签页）</caption>
       <caption xml:lang="nl">Hoofdvenster van de app. (Video-tabblad)</caption>
       <caption xml:lang="de">Das Hauptfenster der App. (Registerkarte „Video“)</caption>
+      <caption xml:lang="es">La ventana principal de la aplicación. (Pestaña «Vídeo»)</caption>
     </screenshot>
     <screenshot>
       <image>https://codeberg.org/impromptux/ytdl-gui/raw/commit/d23123e4b8c6801b330ec58d9890b5939cb75b4f/resources/screenshot1.png</image>
@@ -74,6 +81,7 @@
       <caption xml:lang="zh_Hans">应用的主窗口。（音频标签页）</caption>
       <caption xml:lang="nl">Hoofdvenster van de app. (Audio-tabblad)</caption>
       <caption xml:lang="de">Das Hauptfenster der App. (Registerkarte „Audio“)</caption>
+      <caption xml:lang="es">La ventana principal de la aplicación. (Pestaña «Audio»)</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1" />
