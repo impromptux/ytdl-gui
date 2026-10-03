@@ -25,7 +25,7 @@ mainActions::mainActions(QObject *parent) : QObject(parent)	{
         ytdl* window = ytdl::getWinInstance();
         Ui::ytdl* ui = ytdl::getUiInstance();
 
-        connect(ui->buttonDownload, &QPushButton::released, window, &ytdl::downloadAction);
+        connect(ui->buttonDownload, &QPushButton::clicked, window, &ytdl::downloadAction);
 
         //connect enter to downloadAction
         QShortcut* returnAction = new QShortcut(QKeySequence("Return"), window);
@@ -255,6 +255,7 @@ void ytdl::printResult(int result_num) {
 }
 
 void ytdl::downloadAction() {
+    ui->buttonDownload->setEnabled(false);
     std::string ytdl_prog;
     std::string embed_metadata;
     std::ifstream fio("/tmp/ytdl_stderr", std::ios::in);
@@ -426,5 +427,6 @@ void ytdl::downloadAction() {
             this->run_ytdl(command);
         }
     }
+    ui->buttonDownload->setEnabled(true);
 
 }
