@@ -286,7 +286,7 @@ void ytdl::downloadAction() {
         directory_path.replace(pos, 1, escaped_quote);
         pos += escaped_quote.length();  // Move past the replaced text
     }
-    std::string directory_str = quote + directory_path + "/%(title)s.%(ext)s" + quote;
+    std::string directory_str = quote + directory_path + "/%(title).200B.%(ext)s" + quote;
     std::string parse_output = R"(stdbuf -o0 grep -oP '^\[download\].*?\K([0-9]+)')";
     std::string thumbnail;
     std::string embed_subs;
